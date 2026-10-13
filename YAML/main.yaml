@@ -1,0 +1,25 @@
+experiment_name: "KFOLD_LAYERS6"
+cuda_device: 2
+pretrained_model_name: "microsoft/wavlm-large"
+accumulation_steps: 4
+epochs: 36
+BATCH_SIZE: 112
+learning_rate: 0.001
+head_dim: 1024
+pooling_type: "AttentiveStatisticsPooling"
+minibatch_log_after: 200
+compute_test_scores_after: 5
+
+lora_rank: 4        # Rank r — higher = more capacity, more params
+lora_alpha: 16.0    # Scaling alpha — effective scale = alpha/rank
+lora_dropout: 0.05  # Dropout on the LoRA branch
+
+
+seed: 1312141425
+
+audio_path: "/home/hiddenrock/SERVER_DATASETS/DATASET_MSP2/Audios"
+label_path: "/home/hiddenrock/SpeechEmotionRecog/IS-25/processed_labels_new.csv"
+
+
+
+soft_path: "/home/hiddenrock/SpeechEmotionRecog/soft_labels.csv"  # for KL Divergence
