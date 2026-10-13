@@ -206,13 +206,7 @@ Before comparing an experiment with the paper:
 
 If you use this work, please cite the SELAR paper. This provisional entry intentionally omits publication details that have not yet been supplied; replace it with the official proceedings entry when available.
 
-```bibtex
-@inproceedings{uniyal_selar,
-  title     = {SELAR: Selective Emotion-Layer Attention Refinement for Spontaneous Speech Emotion Recognition},
-  author    = {Uniyal, Drishya and Abrol, Vinayak},
-  booktitle = {IEEE Spoken Language Technology Workshop (SLT)},
-  note      = {Accepted for publication}
-}
+```
 ```
 
 ## Contact
@@ -220,8 +214,5 @@ If you use this work, please cite the SELAR paper. This provisional entry intent
 For questions about the paper or implementation:
 
 - Drishya Uniyal: drishyau@iiitd.ac.in
-- Vinayak Abrol: abrol@iiitd.ac.in
 
-<!-- Before publishing: add the architecture asset, the public paper link, the
-repository's tested dependency versions, complete configs and local modules,
-and a license chosen by the authors. Update the citation with official metadata. -->
+
