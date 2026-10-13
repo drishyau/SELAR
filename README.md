@@ -147,14 +147,7 @@ The entry point uses `learning_rate * 0.1` for the feature extractor and `learni
 
 ### Select the number of layers
 
-The supplied script currently hard-codes k = 6:
-
-```python
-feature_extractor = WavLMLayerWeighted(k=6).to(DEVICE)
-```
-
 To use the paper's best reported selection size, change this line to:
-
 ```python
 feature_extractor = WavLMLayerWeighted(k=9).to(DEVICE)
 ```
@@ -164,7 +157,7 @@ Changing the experiment name in YAML does not change k. The script does not curr
 ### Launch an experiment
 
 ```bash
-python main_crabstyle_layer_selection.py --config configs/selar.yaml
+python selar.py --config configs/selar.yaml
 ```
 
 The entry point performs:
