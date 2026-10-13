@@ -41,7 +41,7 @@ The paper evaluates SELAR on MSP-Podcast v2.0, including both labeled open test 
 
 <!-- Add the paper's Figure 1 as assets/architecture.png before publishing. -->
 <p align="center">
-  <img src="assets/architecture.png" alt="SELAR architecture: WavLM, layer selection, parallel cross-layer attention, attentive statistics pooling, and classification" width="100%">
+  <img src="architecture.png" alt="SELAR architecture: WavLM, layer selection, parallel cross-layer attention, attentive statistics pooling, and classification" width="100%">
 </p>
 
 ```text
