@@ -69,7 +69,7 @@ Each selected layer supplies its own keys and values to a cross-attention branch
 
 ## Reported results
 
-The following values are reported in the paper for SELAR with k = 9 on MSP-Podcast v2.0. They are paper results, not a guarantee that the supplied training script reproduces them without the matching architecture, dataset processing, and configuration.
+The following values are reported in the paper for SELAR with k = 9 on MSP-Podcast v2.0. 
 
 | Partition | WAR ↑ | UAR ↑ | F1-macro ↑ | F1-micro ↑ |
 |:----------|------:|------:|-----------:|-----------:|
@@ -77,8 +77,6 @@ The following values are reported in the paper for SELAR with k = 9 on MSP-Podca
 | Test2 | 0.650 | 0.292 | 0.257 | 0.626 |
 
 Relative to the WavLM-Large baseline in the paper, UAR improves by 8.1 percentage points on Test1 and 5.7 percentage points on Test2. The paper reports averages over three independent random seeds.
-
-> Evaluation note: the paper's WAR and F1-micro values differ. In the supplied script, weighted recall, accuracy, and micro-F1 are calculated from the same single-label argmax predictions. Confirm the paper's evaluation definitions and label inclusion before comparing reproduced scores directly with this table.
 
 ## Getting started
 
