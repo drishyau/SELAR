@@ -117,8 +117,8 @@ The Test3 export block in the supplied script also contains two machine-specific
 
 ```python
 # Replace with your own dataset locations.
-"/home/hiddenrock/SERVER_DATASETS/DATASET_MSP2/Partitions.txt"
-"/home/hiddenrock/SERVER_DATASETS/DATASET_MSP2/Audios"
+"/Partitions.txt"
+"/Audios"
 ```
 
 ### 5. Create a configuration
