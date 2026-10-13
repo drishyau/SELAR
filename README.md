@@ -22,7 +22,7 @@ Department of Computer Science, CAI, IIIT-Delhi, New Delhi, India
 
 ## Overview
 
-Emotion cues are not distributed uniformly across the layers of a self-supervised speech encoder. Using only the final layer or combining every layer without explicitly modeling their interactions—can leave useful affective information unexploited.
+Emotion cues are not distributed uniformly across the layers of a self-supervised speech encoder. Using only the final layer or combining every layer without explicitly modeling their interactions can leave useful affective information unexploited.
 
 SELAR combines learnable layer selection with cross-layer attention to recognize emotions in spontaneous speech. Built on WavLM-Large, the framework selects a subset of transformer-layer representations, refines them using a shared query, and produces utterance-level emotion predictions using attentive statistics pooling.
 
